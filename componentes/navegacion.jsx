@@ -4,7 +4,10 @@ import Link from "next/link";
 function Navegation() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        className="navbar navbar-expand-lg navbar-dark bg-dark"
+        aria-label="First navbar example"
+      >
         <div className="container">
           <Link className="navbar-brand" href="/">
             Mi Primera Web
